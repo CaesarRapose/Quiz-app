@@ -1,0 +1,104 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT THEME */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+}
+
+/* BODY */
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* LINKS */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN APP CONTAINER */
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD LAYOUT (Quiz container) */
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* QUESTION TEXT */
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* OPTIONS */
+.option {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #1f2933;
+  color: var(--text);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option:hover {
+  border-color: var(--primary);
+  background: #111827;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: none;
+  background: var(--primary);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: var(--primary-hover);
+}
