@@ -1,3 +1,10 @@
+⚠️ IMPORTANT: This is NOT an open-source repository.
+
+The source code is publicly visible for transparency and demonstration purposes only.
+You are NOT allowed to use, copy, modify, distribute, or reuse any part of this code.
+
+All rights are reserved by the author.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
